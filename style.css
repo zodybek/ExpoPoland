@@ -72,11 +72,13 @@ h2 {
 	position: relative;
 	margin-bottom: 20px;
 	width: 200px;
+	transition: all .2s ease-in-out; 
 }
 
 .box img:hover {
-	animation-name:animate__pulse;
+	transform: scale(1.1); 
 }
+
 #srodek {
     background-color: #fff;
     padding-top: 50px;
@@ -94,7 +96,7 @@ h2 {
     padding: 15px;
 }
 .danewrapper {
-    width: 70%;
+    width: 77%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
